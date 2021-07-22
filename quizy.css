@@ -1,3 +1,8 @@
+h2 {
+    border-bottom: 3px yellow;
+}
+
+
 ul {
     list-style: none;
 }
