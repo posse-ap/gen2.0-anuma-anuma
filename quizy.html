@@ -8,14 +8,33 @@
     <link rel="stylesheet" href="quizy.css">
 </head>
 <body>
-    <h2 class="quiz1">1.この地名は何て読む？</h2>
-    <img src="https://d1khcm40x1j0f.cloudfront.net/quiz/34d20397a2a506fe2c1ee636dc011a07.png">
-    <ul>
-    <li><input type="button" value="たかなわ" id="0-0-1"></li>
-    <li><input type="button" value="こうわ" id="0-0-2"></li>
-    <li><input type="button" value="たかわ" id="0-0-3"></li>
-    
-    </ul>
+    <div class="container content-wrapper">
+        <h1 class="quiz-title box-container">ガチで東京の人しか解けない！　＃東京の難読地名クイズ</h1>
+        <div class="quiz box-container">
+                <h2 class="quiz1">
+                    1.この地名は何て読む？
+                </h2>
+            <div class="quiz-image-container">
+                <img class="quiz-image" src="https://d1khcm40x1j0f.cloudfront.net/quiz/34d20397a2a506fe2c1ee636dc011a07.png">
+            </div>
+            <ul>
+                <li class="button" id="0-0-1">
+                    <div class="button-text">たかなわ</div>
+                </li>
+                <li class="button" id="0-0-2">
+                    <div class="button-text">こうわ</div>
+                </li>
+                <li class="button" id="0-0-3">
+                    <div class="button-text">たかわ</div>
+                </li>
+            </ul>
+            <div class="quiz-reslt" id="0-d">
+                <p class="quiz-reslt-title quiz-reslt-title-succeeded" id="quiz-reslt-title-succeeded">正解！</p>
+                <p class="quiz-reslt-title quiz-reslt-title-failed" id="quiz-reslt-title-failed">不正解！</p>
+                <p class="quiz-reslt-discription">正解は「たかなわ」です！</p>
+            </div>
+        </div>
+    </div>
 
     <script src="quizy.js"></script>
 </body>
